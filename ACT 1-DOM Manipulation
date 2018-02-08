@@ -53,18 +53,20 @@ var svg = d3.select("body") .append("svg")
     	.attr("fill-opacity", 0.2)
     	.attr("stroke", "white")
     
-//    circle2.remove()
+////TO REMOVE SELECT+ CNTRL+/
+//     var circle2=svg.append("circle")
     
-    circle
+//  	 	circle2
+//     	.attr("cx",200)
+//     	.attr("cy",300)
+//     	.attr("r", 20)
+//     	.attr("fill","steelblue")
+//     	.attr("fill-opacity", 0.2)
+//     	.attr("stroke", "white")
+    
+    circle1
     .transition()
-    .attr("cx",function(){
-         return Math.random() * width
-    })     
-
-//     svg.append("text")
-//       .text("Edit the code below to change me!")
-//       .attr("y", 200)
-//       .attr("x", 120)
-//       .attr("font-size", 36)
-//       .attr("font-family", "monospace")
-    
+//     .attr("cx", 400)
+       .attr("cx", function (){
+        return Math.random()* width
+        })
