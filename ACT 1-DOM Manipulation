@@ -39,6 +39,7 @@ var svg = d3.select("body") .append("svg")
 // 			Polyline <polyline>
 // 			Polygon <polygon>
 // 			Path <path>
+//	    //SVG Colors https://www.w3schools.com/tags/ref_colornames.asp
     	
     	
     
