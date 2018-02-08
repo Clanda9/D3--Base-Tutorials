@@ -11,12 +11,12 @@ var svg = d3.select("body") .append("svg")
  var circle=svg.append ("circle")
  circle 
     	.attr("cx", 230)          	//Where will it be located
-		.attr("cy", 200) 			//giving it coordinates
+	.attr("cy", 200) 		//giving it coordinates
     	.attr("r", 25) 		        //size
     	.attr("fill","green") 		//fill color
     	.attr("fill-opacity", 0.26)	//fill opacity
     	.attr("stroke", "black")	//stroke
-    	.attr("stroke-width",5)	    //Line weight	
+    	.attr("stroke-width",5)	   	//Line weight	
     
     var square=svg.append("rect") 
     square
